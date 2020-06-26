@@ -14,6 +14,9 @@ routes.get("/receita/:index", user.receita);
 
 /*visão de um admin para o site*/
 
+routes.get("/admin", function (req, res) {
+  return res.redirect("/admin/recipes");
+});
 routes.get("/admin/recipes", recipes.index);
 routes.get("/admin/recipes/create", recipes.create);
 routes.get("/admin/recipes/:id", recipes.show);

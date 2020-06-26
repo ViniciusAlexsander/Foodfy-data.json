@@ -17,7 +17,7 @@ nunjucks.configure("views", {
   noCache: true,
 });
 
-let port = process.env.PORT || 3333;
+let port = process.env.PORT || 3000;
 server.listen(port, () => {
   console.log(`O pai ta on na porta ${port}`);
 });
