@@ -1,0 +1,28 @@
+{
+  "name": "Foodfy",
+  "version": "1.0.0",
+  "description": "Site iniciado no desafio dois que tem como objetivo mostrar algumas receitas.",
+  "main": "server.js",
+  "scripts": {
+    "start": " nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusAlexsander/Foodfy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniciusAlexsander/Foodfy/issues"
+  },
+  "homepage": "https://github.com/ViniciusAlexsander/Foodfy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "nunjucks": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
